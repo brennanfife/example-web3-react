@@ -1,0 +1,20 @@
+{
+  "name": "web3-react-example",
+  "scripts": {
+    "start": "next",
+    "build": "next build && next export"
+  },
+  "dependencies": {
+    "@ethersproject/providers": "^5.1.2",
+    "@ethersproject/units": "^5.1.0",
+    "@types/node": "^15.6.1",
+    "@types/react": "^17.0.8",
+    "@web3-react/abstract-connector": "latest",
+    "@web3-react/core": "latest",
+    "@web3-react/injected-connector": "latest",
+    "next": "^9.2.1",
+    "react": ">=16.8",
+    "react-dom": ">=16.8",
+    "typescript": "^3.7.5"
+  }
+}
